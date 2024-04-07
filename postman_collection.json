@@ -1,0 +1,254 @@
+{
+    "info": {
+        "name": "Laravel API",
+        "_postman_id": "66113cc3d69bb",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "CsrfCookieController",
+            "item": [
+                {
+                    "name": "sanctum\/csrf-cookie",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/sanctum\/csrf-cookie",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "sanctum",
+                                "csrf-cookie"
+                            ]
+                        },
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "HealthCheckController",
+            "item": [
+                {
+                    "name": "_ignition\/health-check",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/_ignition\/health-check",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "_ignition",
+                                "health-check"
+                            ]
+                        },
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ExecuteSolutionController",
+            "item": [
+                {
+                    "name": "_ignition\/execute-solution",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/_ignition\/execute-solution",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "_ignition",
+                                "execute-solution"
+                            ]
+                        },
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "UpdateConfigController",
+            "item": [
+                {
+                    "name": "_ignition\/update-config",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/_ignition\/update-config",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "_ignition",
+                                "update-config"
+                            ]
+                        },
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ContactUController",
+            "item": [
+                {
+                    "name": "api\/contactus",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/api\/contactus",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "api",
+                                "contactus"
+                            ]
+                        },
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/contactus",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/api\/contactus",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "api",
+                                "contactus"
+                            ]
+                        },
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/contactus\/{contactu}",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/api\/contactus\/{contactu}",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "api",
+                                "contactus",
+                                "{contactu}"
+                            ]
+                        },
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/contactus\/{contactu}",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/api\/contactus\/{contactu}",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "api",
+                                "contactus",
+                                "{contactu}"
+                            ]
+                        },
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/contactus\/{contactu}",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": [],
+                        "url": {
+                            "raw": "{{base_url}}\/api\/contactus\/{contactu}",
+                            "host": [
+                                "{{base_url}}"
+                            ],
+                            "path": [
+                                "api",
+                                "contactus",
+                                "{contactu}"
+                            ]
+                        },
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}
